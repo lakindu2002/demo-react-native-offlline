@@ -45,6 +45,10 @@ const App = () => {
             style={{
               backgroundColor: isDarkMode ? Colors.black : Colors.white,
             }}>
+            {
+              // adding the connection monitor as a child of network provider.
+              // this will make it available to all children of network provider.
+            }
             <ConnectionMonitor />
           </View>
         </ScrollView>

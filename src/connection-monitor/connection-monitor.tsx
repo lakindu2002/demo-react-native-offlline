@@ -29,6 +29,9 @@ export const ConnectionMonitor: FC = () => {
           variant="error"
         />
       </>}
+      {
+        // adding the ping component
+      }
       <Ping />
     </>
   );
