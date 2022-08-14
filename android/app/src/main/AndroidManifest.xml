@@ -2,6 +2,8 @@
   package="com.offlineaccess">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-->providing permission to android device to access network state to identity if its online or offline<!-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
       android:name=".MainApplication"
